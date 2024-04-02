@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>小白主页·永久发布页</title>
+	<link rel="stylesheet" href="static/css/index.css">
+	<link rel="stylesheet" href="static/css/new.css">
+    <link rel="stylesheet" href="static/css/mdui.min.css"/>
+	<script type="text/javascript" src="static/js/jquery-1.8.3.min.js"></script>
+</head>
+<body class="mdui-color-blue" style="height: 100vh; background-size: cover; background-repeat: no-repeat; background-image: url('static/images/65d1f4139f345e8d037cd36d.jpg'); background-attachment: fixed;">
+	<div class="box mdui-shadow-3">
+		<h1>小白主页·永久地址发布页</h1>
+		<p class="mdui-shadow-3">请 Ctrl + D 收藏本页到浏览器收藏夹回家不迷路 </p>
+		<ul class="speedlist">
+			<li>
+				<a href="https://star.lxyq.link" target="_blank" class="mdui-shadow-3"><strong>主站 - 小白星空</strong></a>
+				<i class="ms1">线路延迟：<i id="lineMs0">loading</i></i>
+			</li>
+			<li>
+				<a href="https://newhome.hylove.top" target="_blank" class="mdui-shadow-3"><strong>副站 - Xiaobai个人主页</strong></a>
+				<i class="ms1">线路延迟：<i id="lineMs1">loading</i></i>
+			</li>
+			<li>
+				<a href="https://lead.lxyq.link" target="_blank" class="mdui-shadow-3"><strong>小白 - 引导页</strong></a>
+				<i class="ms1">线路延迟：<i id="lineMs2">loading</i></i>
+			</li>
+			<li>
+				<a href="https://go.lxyq.link" target="_blank" class="mdui-shadow-3"><strong>路遥 - 主页空间</strong></a>
+				<i class="ms1">线路延迟：<i id="lineMs3">loading</i></i>
+			</li>
+			<li>
+				<a href="https://hav.lxyq.link" target="_blank" class="mdui-shadow-3"><strong>导航 - 小白nav导航</strong></a>
+				<i class="ms1">线路延迟：<i id="lineMs4">loading</i></i>
+			</li>
+		</ul>
+	</div>
+<div class="footer mdui-shadow-3">
+    <b id="stable-days-display"><< 本站已稳定运行 <span id="stable-days-value"></span> 天 >></b>
+    <script async>
+        var birthDay = new Date("2024-04-02");
+        var today = new Date();
+        var timeOld = today.getTime() - birthDay.getTime();
+        var daysOld = Math.floor(timeOld / (24 * 60 * 60 * 1000));
+        var stableDaysElement = document.getElementById("stable-days-value");
+        stableDaysElement.textContent = daysOld;
+    </script><br>
+    <script async src="static/js/jilei.pure.mini.js"></script>
+    <span id="jilei_container_site_pv">本站总访问量:<span id="jilei_value_site_pv"></span>次</span>
+    <span class="post-meta-divider"> | </span>
+    <span id="jilei_container_site_uv">本站总访客数:<span id="jilei_value_site_uv"></span>人</span>
+</div>
+	<script src="static/js/yinghua.js"></script>
+<div id="j-fish-skip" style="position: fixed; bottom: 0; width: 100%;">
+    <script src="static/js/jquery.min.js"></script>
+    <script src="static/js/fish.min.js"></script>
+    <script src="static/js/mdui.min.js"></script>
+</div>
+	<script type="text/javascript" src="static/js/ms.js"></script>
+	<div id="gui-MusicPlayer" data-cdnName="https://y.cenguigui.cn/js"></div>
+    <script src="static/js/gui-musicplayer.min.js"></script>
+</body>
+</html>
